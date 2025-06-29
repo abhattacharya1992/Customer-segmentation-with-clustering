@@ -28,7 +28,7 @@ This repository includes two versions of the customer segmentation pipeline:
 - 5 customer segments revealed through K-Means and t-SNE.
 - Balanced trade-off between customer retention and clean segmentation.
 
-### 2. `Aggressive_Outlier_Flagging.ipynb`
+### 2. `Aggressive_Outlier_Flagging_Bhattacharya_Arunima_CAM_C101_Week_6_Mini-project.ipynb`
 - Tighter clustering by flagging customers as outliers if they exceeded 2+ statistical limits.
 - Enabled focus on core customers by removing noise.
 - Useful for targeting retention or marketing exclusion.
@@ -38,7 +38,7 @@ These complementary analyses showcase the impact of outlier treatment on cluster
 ## 📁 Files
 - `Bhattacharya_Arunima_CAM_C101_Week_6_Mini_project.ipynb`: Full analysis code and visualisations
 - `Bhattacharya_Arunima_CAM_C101_W6_Mini-project.pdf`: Summary report with results and recommendations
-
+- `Aggressive_Outlier_Flagging_Bhattacharya_Arunima_CAM_C101_Week_6_Mini-project.ipynb`: Revisit the same clustering task with more aggressive outlier detection.
 ## 🛠️ Libraries
 - `pandas`, `numpy`, `matplotlib`, `seaborn`
 - `scikit-learn`: PCA, KMeans, StandardScaler, IsolationForest
