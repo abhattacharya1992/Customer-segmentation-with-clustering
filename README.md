@@ -19,6 +19,22 @@ Group customers into meaningful segments based on behavioural and transactional 
 - Found 2.9% high-value outlier customers worth retaining as a separate segment
 - Visualised clear separation using t-SNE, with PCA confirming variance distribution
 
+  ## 📎 Versions Compared
+
+This repository includes two versions of the customer segmentation pipeline:
+
+### 1. `Customer_Segmentation_with_Clustering.ipynb`
+- Baseline approach using IQR-based filtering.
+- 5 customer segments revealed through K-Means and t-SNE.
+- Balanced trade-off between customer retention and clean segmentation.
+
+### 2. `Aggressive_Outlier_Flagging.ipynb`
+- Tighter clustering by flagging customers as outliers if they exceeded 2+ statistical limits.
+- Enabled focus on core customers by removing noise.
+- Useful for targeting retention or marketing exclusion.
+
+These complementary analyses showcase the impact of outlier treatment on clustering effectiveness.
+
 ## 📁 Files
 - `Bhattacharya_Arunima_CAM_C101_Week_6_Mini_project.ipynb`: Full analysis code and visualisations
 - `Bhattacharya_Arunima_CAM_C101_W6_Mini-project.pdf`: Summary report with results and recommendations
