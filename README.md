@@ -23,7 +23,7 @@ Group customers into meaningful segments based on behavioural and transactional 
 
 This repository includes two versions of the customer segmentation pipeline:
 
-### 1. `Customer_Segmentation_with_Clustering.ipynb`
+### 1. `Bhattacharya_Arunima_CAM_C101_Week_6_Mini_project.ipynb`
 - Baseline approach using IQR-based filtering.
 - 5 customer segments revealed through K-Means and t-SNE.
 - Balanced trade-off between customer retention and clean segmentation.
