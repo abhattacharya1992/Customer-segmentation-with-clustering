@@ -25,12 +25,14 @@ This repository includes two versions of the customer segmentation pipeline:
 
 ### 1. `Bhattacharya_Arunima_CAM_C101_Week_6_Mini_project.ipynb`
 - Baseline approach using IQR-based filtering.
-- 5 customer segments revealed through K-Means and t-SNE.
+- 5 main customer segments revealed through K-Means, PCA and t-SNE.
+- Outlier segment identified as an Elite Group with Very High Frequency purchases & High Lifetime Value
 - Balanced trade-off between customer retention and clean segmentation.
 
 ### 2. `Aggressive_Outlier_Flagging_Bhattacharya_Arunima_CAM_C101_Week_6_Mini-project.ipynb`
 - Tighter clustering by flagging customers as outliers if they exceeded 2+ statistical limits.
 - Enabled focus on core customers by removing noise.
+- Completely eliminated the infrequent high spender segment and over-restricted the elite segment
 - Useful for targeting retention or marketing exclusion.
 
 These complementary analyses showcase the impact of outlier treatment on clustering effectiveness.
