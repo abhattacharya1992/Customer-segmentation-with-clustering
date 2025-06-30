@@ -52,6 +52,11 @@ This project demonstrates:
 - Importance of robust feature engineering
 - Model interpretability for business decisions
 
+## 🔍 Region-wise Insights
+- North America: Polarised behaviour with high variability — prioritise personalisation and churn control.
+- Europe: Stable, price-sensitive market — suited for value-based and loyalty-driven strategies.
+- Oceania: Loyal, high-frequency customers — ideal for retention and age-targeted campaigns.
+
 ---
 
 📬 For queries or collaborations, connect on [LinkedIn](https://www.linkedin.com/in/arunima-bhattacharya-researcher-phd/)
